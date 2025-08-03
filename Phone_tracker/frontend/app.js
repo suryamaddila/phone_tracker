@@ -1,3 +1,6 @@
+fetch('/api/message')
+  .then(res => res.json())
+  .then(data => console.log(data));
 // Real tracking functionality
 document.addEventListener('DOMContentLoaded', function() {
     // Use a more reliable selector for the Track button
@@ -18,4 +21,5 @@ document.addEventListener('DOMContentLoaded', function() {
             alert('Tracking started!');
         });
     }
+
 });
