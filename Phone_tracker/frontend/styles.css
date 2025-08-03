@@ -1,0 +1,64 @@
+<<<<<<< SEARCH
+    <style>
+        /* Custom animations */
+        @keyframes pulse {
+            0% { opacity: 0.6; }
+            50% { opacity: 1; }
+            100% { opacity: 0.6; }
+        }
+        
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+        
+        /* Map container styling */
+        .map-container {
+            height: 500px;
+            background-color: #e5e7eb;
+            position: relative;
+        }
+        
+        /* Location pin styling */
+        .location-pin {
+            position: absolute;
+            width: 30px;
+            height: 40px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        /* Timeline styling */
+        .timeline-container {
+            height: 200px;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .map-container {
+                height: 300px;
+            }
+            
+            .timeline-container {
+                height: 150px;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
